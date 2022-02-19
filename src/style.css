@@ -1,0 +1,82 @@
+.column {
+    width: 30%;
+    float: left;
+}
+.image {
+    background: #000000;
+    flex: 1;
+    position:relative;
+    overflow: hidden;
+    margin-top:15px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 250px;  
+    border-radius: 50%;  /*To place images in circular style*/
+}
+.image img {
+    opacity: 0.8;
+    position: relative;
+    vertical-align: top;
+    transition: 0.6s;
+    transition-property: opacity;
+    width: 100%;
+    height: 100%;
+}
+.details .read-more span{
+    font-size: 18px;
+    font-weight: 700;
+    position:relative;
+    background:white;
+    justify-content:center;
+    width: 50%;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* Extra CSS */
+.clearfix {
+    clear: both;
+}
+
+.column {
+    text-align: -webkit-center;
+}
+
+@media only screen and (min-width : 320px) {
+    .column {
+        width: 100%;
+        float: left;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .column {
+        width: 100%;
+        float: left;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .column {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .column {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .column {
+        width: 30%;
+        float: left;
+    }
+}
